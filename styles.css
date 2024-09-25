@@ -59,7 +59,7 @@ img, picture, video, canvas, svg {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
-  font-size: 1.7rem;
+  font-size: clamp(1.7rem, 1.5rem + 1vw, 3rem);
   color: var(--Very-Dark-Blue);
 }
 
@@ -72,6 +72,10 @@ h2 {
 
 .h1--Bold {
   font-weight: 600;
+}
+
+.h1--Small {
+  font-size: 1.5rem;
 }
 
 p {
